@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit",
+      "Write",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(flake8:*)",
+      "Bash(python manage.py test --settings=config.test*)",
+      "Bash(python manage.py makemigrations*)",
+      "Bash(python manage.py migrate*)",
+      "Bash(python manage.py showmigrations*)"
+    ],
+    "deny": []
+  }
+}
